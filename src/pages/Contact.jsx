@@ -24,7 +24,8 @@ function Contact() {
       })
         .then((a) => a.json())
         .then((a) => a);
-    };
+  };
+  console.log(input)
   return (
     <>
       <div className="basket-image">
@@ -34,20 +35,68 @@ function Contact() {
         />
         <div className="links">
           <NavLink end to="/">
-            Home
+            Ana səhifə
           </NavLink>{" "}
-          / Elaqe
+          / Əlaqə
           <div className="text">
-            <h1>əlaqe</h1>
-            <h2>Bizə ulaşmaq üçün aşağıda mesaj göndərə bilərsiz.</h2>
+            <h1>Əlaqə</h1>
           </div>
         </div>
       </div>
-
+      <div className="contact">
+      
+        <div className="contact-text">
+          <div className="small-text">
+            <div className="contact-icon">
+              <i className="fa-regular fa-phone orange" />
+              <p className="pcontent">Qaynar xətt</p>
+            </div>
+            <div className="contact-information">
+              <p className="pcontent">*5858</p>
+            </div>
+          </div>
+          <div className="small-text">
+            <div className="contact-icon">
+              <i className="fa-regular fa-at orange" />
+              <p className="pcontent ">E-mail:</p>
+            </div>
+            <div className="contact-information">
+              <p className="pcontent">beautyshop@gmail.com</p>
+            </div>
+          </div>
+          <div className="small-text">
+            <div className="contact-icon">
+              <i className="fa-regular fa-location-dot orange" />
+              <p className="pcontent">Ünvan:</p>
+            </div>
+            <div className="contact-information">
+              <p className="pcontent">Yasamal r-nu, Həsənbəy Zərdabi</p>
+            </div>
+          </div>
+          <div className="small-text">
+            <div className="contact-icon">
+              <i className="fa-regular fa-calendar orange" />
+              <p className="pcontent">İş günləri:</p>
+            </div>
+            <div className="contact-information">
+              <p className="pcontent">Hər gün</p>
+            </div>
+          </div>
+          <div className="small-text">
+            <div className="contact-icon">
+              <i className="fa-regular fa-clock orange" />
+              <p className="pcontent">İş saatları:</p>
+            </div>
+            <div className="contact-information">
+              <p className="pcontent">09:00 - 20:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="contact-container">
-        <h1>Contact Us</h1>
+        <h1>Bizimlə əlaqə</h1>
         <form onSubmit={submitEvent}>
-          <label>Name:</label>
+          <label>Ad:</label>
           <input
             name="name"
             value={input.name}
@@ -61,14 +110,14 @@ function Contact() {
             onChange={handleClick}
             type="email"
           />
-          <label>Message:</label>
+          <label>Mesaj:</label>
           <textarea
             name="message"
             value={input.message}
             onChange={handleClick}
             rows="5"
           ></textarea>
-          <button type="submit">Submit</button>
+          <button type="submit">Göndər</button>
         </form>
       </div>
     </>

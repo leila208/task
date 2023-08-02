@@ -22,7 +22,7 @@ function HomePage() {
         </div>
       </div>
       <section className="">
-        <div className="wrapper flex">
+        <div className="wrapper df">
           <div className="blog-section">
             {/* {blogs.map((blog) => ( */}
             <Link
@@ -32,7 +32,70 @@ function HomePage() {
             >
               <div className="myblogs-container">
                 <div className="blog-qutu">
-                  {/* <img src={blog.image} alt="" />
+                  <img
+                    src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg"
+                    alt=""
+                  />
+                  <h1>Bloq adi</h1>
+                  <p>Bloq haqda</p>
+                  {/* <img src={blog.image}  />
+                    <h1>{blog.name}</h1>
+                    <p>{blog.description.slice(0, 150)}... .</p> */}
+                </div>
+              </div>
+            </Link>
+            <Link
+              // key={blog.id}
+              // to={`/blogdetails/${blog.id}`}
+              className="blogpage-section"
+            >
+              <div className="myblogs-container">
+                <div className="blog-qutu">
+                  <img
+                    src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg"
+                    alt=""
+                  />
+                  <h1>Bloq adi</h1>
+                  <p>Bloq haqda</p>
+                  {/* <img src={blog.image}  />
+                    <h1>{blog.name}</h1>
+                    <p>{blog.description.slice(0, 150)}... .</p> */}
+                </div>
+              </div>
+            </Link>
+            <Link
+              // key={blog.id}
+              // to={`/blogdetails/${blog.id}`}
+              className="blogpage-section"
+            >
+              <div className="myblogs-container">
+                <div className="blog-qutu">
+                  <img
+                    src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg"
+                    alt=""
+                  />
+                  <h1>Bloq adi</h1>
+                  <p>Bloq haqda</p>
+                  {/* <img src={blog.image}  />
+                    <h1>{blog.name}</h1>
+                    <p>{blog.description.slice(0, 150)}... .</p> */}
+                </div>
+              </div>
+            </Link>
+            <Link
+              // key={blog.id}
+              // to={`/blogdetails/${blog.id}`}
+              className="blogpage-section"
+            >
+              <div className="myblogs-container">
+                <div className="blog-qutu">
+                  <img
+                    src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg"
+                    alt=""
+                  />
+                  <h1>Bloq adi</h1>
+                  <p>Bloq haqda</p>
+                  {/* <img src={blog.image}  />
                     <h1>{blog.name}</h1>
                     <p>{blog.description.slice(0, 150)}... .</p> */}
                 </div>
@@ -76,7 +139,10 @@ function HomePage() {
             </ul>
             <div className="item">
               <div className="super-sale mt-12">
-                <img src="/images/shop-boots.jpeg" alt="" />
+                <img
+                  src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg"
+                  alt=""
+                />
                 <div className="super-sale-info border">
                   <h1 className="text-base">Super Sale Up To OFF 50%</h1>
                   <p className="">
@@ -89,7 +155,7 @@ function HomePage() {
               </div>
             </div>
             <div className="hiking-coach">
-              <div className="artist">
+              <div className="artis">
                 <div className="artistimg">
                   <img src="https://cdn.bolvo.com/assets/viasun/team-item-3.jpg" />
                 </div>

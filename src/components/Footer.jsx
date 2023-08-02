@@ -39,7 +39,7 @@ function Footer() {
               <li className="icons">
                 <ul className="icons-container">
                   <li className="icon">
-                    <i className="fa-brands fa-facebook-f"></i>
+                    <i className="fa-brands fa-facebook"></i>
                   </li>
                   <li className="icon">
                     <i className="fa-brands fa-twitter"></i>

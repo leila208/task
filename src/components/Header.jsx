@@ -77,12 +77,7 @@ function Header() {
             </li>
           </ul>
           <ul className="icon">
-            <li className="ket">
-              <NavLink to="/basket">
-                <i className="fa-solid fa-basket-shopping" />
-                {/* <div className="props">{props.basket.length}</div> */}
-              </NavLink>
-            </li>
+            
             <li className="hear">
               <NavLink to="/fav">
                 <i className="fa-solid fa-heart" />

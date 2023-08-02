@@ -1,49 +1,27 @@
 import React from 'react'
-
+import { NavLink } from 'react-router-dom';
+import CountUp from "react-countup";
 function AboutUs() {
   return (
     <section>
-      <div className="k">
-        <h1>Haqqımızda</h1>
-      </div>
-      <div className="us">
-        <div className="container">
-          <div className="us-details">
-            <div className="us-text">
-              <h1>
-                Müştərilərin <i className="orange">CampBaku</i> haqqında
-                fikirləri
-              </h1>
-              <p className="pcontent">
-                Siz də müştərilərimiz sırasına daxil olun
-              </p>
-              <i className="fa-solid fa-right-long" />
-            </div>
-     
-                <div className="us-right-text">
-                  <div className="us-up-text">
-                    <p>
-                      Buradan alış-veriş və turlarda iştirak etdiyimə gore çox
-                      məmnunam.Hər kəsə buradan alış-veriş etməyi tövsiyə
-                      edirəm.Məhsullar çox keyfiyyətlidir və qiymətlər çox
-                      sərfəlidir.Məhsullar təbiətə heç bir zərər vermədən
-                      hazırlanır və tamamilə orqanikdir.Ən əsası isə komanda çox
-                      gülərüzdür və daim müştəri ilə maraqlanırlar.
-                    </p>
-                  </div>
-                  <div className="us-bottom-text">
-                    <div className="us-image">
-                      <img src="https://shtheme.org/demosd/betty/wp-content/uploads/2022/02/t1.png" />
-                    </div>
-                    <div className="us-bottom">
-                      <p className="pcontent">Nuray İsgəndərli</p>
-                      <p>müştəri</p>
-                    </div>
-                  </div>
-                </div>
-           
-             
+      <div className="basket-image">
+        <img
+          src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg?w=2000"
+          alt=""
+        />
+        <div className="links">
+          <NavLink end to="/">
+            Ana səhifə
+          </NavLink>{" "}
+          / Haqqımızda
+          <div className="text">
+            <h1>Haqqımızda</h1>
           </div>
+        </div>
+      </div>
+      <div className="container">
+        <div className="textDiv">
+          <p>Lorem</p>
         </div>
       </div>
       <div className="our_artists">
@@ -139,29 +117,29 @@ function AboutUs() {
             <div className="client">
               <div className="client-image"></div>
               <div className="client-text">
-                {/* <CountUp end={500} start={0} duration={6.75} separator=" " /> */}
-                <p>Müştəri</p>
+                <CountUp end={500} start={0} duration={6.75} separator=" " />
+                <p>Bloq</p>
               </div>
             </div>
             <div className="client">
               <div className="client-image"></div>
               <div className="client-text">
-                {/* <CountUp
+                <CountUp
                   end={15}
                   start={0}
                   duration={6.75}
                   separator=" "
                   decimals={3}
                   decimal=","
-                /> */}
-                <p>Gəlir</p>
+                />
+                <p>Yazar</p>
               </div>
             </div>
             <div className="client">
               <div className="client-image"></div>
               <div className="client-text">
-                {/* <CountUp end={250} start={0} duration={6.75} separator=" " /> */}
-                <p>Proyekt</p>
+                <CountUp end={250} start={0} duration={6.75} separator=" " />
+                <p>Mükafat</p>
               </div>
             </div>
           </div>
